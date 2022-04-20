@@ -1,4 +1,196 @@
-html{
+/* html{
 
     font-size: 62.5%;
+} */
+html, body{
+    overflow: visible;
+    overflow-x: hidden;
+}
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.headBlue{
+    color: rgb(12, 12, 93);
+}
+
+.email{
+    display: flex;
+}
+.fa-envelope{
+    padding-right:7px;
+    font-size: small;
+    padding-top:0.3rem;
+    color: rgb(12, 12, 93);
+
+}
+.head{
+    margin-top: .7rem;
+    margin-bottom: 0.7rem;
+
+}
+
+/* NAV BAR */
+
+.navbar{
+background-color: rgb(12, 12, 93);
+}
+
+
+.navbar-nav{
+    padding-left: 6rem;
+}
+.rightNav{
+    padding-right: 4.9rem;
+    display: flex;
+}
+.fa-phone{
+    padding-right: .4rem;
+    padding-top: .2rem;
+}
+.nav-link{
+    color: white;
+} 
+.rightNav,i,h6{
+    color: white;
+}
+
+
+/* banner */
+
+.bannerPic{
+    background-image: url("/img/bannerPic.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* .Brand{
+    width: 50rem;
+} */
+.brandHead{
+    color: white;
+    font-size: 3.8rem;
+    font-weight:normal;
+    word-wrap: break-word;
+    
+}
+.brandPara{
+    line-height:.6rem;
+    color: white;
+    word-wrap: break-word;
+}
+.Brand{
+    margin-top: 7.5rem;
+    margin-left: 6rem;
+}
+.btnLearn{
+    margin-top: 2.5rem;
+    background-color: rgb(12, 12, 93);
+    border: none;
+    font-size: 1rem;
+}
+
+/* cards */
+
+.cards{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.innerCard
+{
+    border: 2px solid rgb(116, 84, 116);
+  
+}
+.dot {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: rgb(12, 12, 94);
+    border-radius: 50%;
+   margin-left: 8.8rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+  
+  }
+
+  /* ABOUT US */
+
+.leftMaterial{
+    background-image: url("/img/about.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+.aboutHead{
+    color: rgb(12, 12, 94);
+}
+
+.pauseButton{
+    font-size:2.5rem;
+    margin-top: 1.3rem;
+    margin-left: 1.6rem;
+}
+.dot_about{
+    position: relative;
+    top: 15rem;
+    left: 14rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(12, 12, 94);
+    border-radius: 50%;
+}
+.aboutMainHead{
+    line-height: 1.6rem;
+}
+
+.aboutPara{
+    color: rgb(12, 12, 94);
+}
+
+#aboutPara1{
+    margin-top: 1.6rem;
+}
+.about{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* MULTI BANNER
+ */
+ .leftPic{
+     background-image: url("/img/left.jpg");
+     background-repeat: no-repeat;
+     background-color: black;
+     background-size: cover;
+     height: 80vh;
+    
+     /* filter: brightness(60%); */
+ }
+
+ .rightPic{
+     background-image: url("/img/right.jpg");
+     background-repeat: no-repeat;
+     background-color: black;
+     background-size: cover;
+     height: 80vh;
+     
+     
+     /* filter: brightness(60%); */
+}
+.leftBannerMaterial{
+    position: relative;
+    top: 24rem;
+    left: 2rem;
+}
+.rightBannerMaterial{
+    position: relative;
+    top: 24rem;
+    left: 2rem;
+}
+.bannerHead{
+    color: white;
+}
+.bannerPara{
+    color: white;
+    line-height: 0.5rem;
 }
